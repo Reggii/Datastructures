@@ -43,7 +43,7 @@ class LinkedList:
             self.head = item
             self.tail = item
             return item
-        # Otherwise we call an inner append function with our item as the argument
+        # Otherwise we call an inner append function with our item variable as the argument
         else:
             self._append(item)
 
@@ -62,7 +62,7 @@ class LinkedList:
 
     # The prepend function allows us to insert items at the front of the list
     def prepend(self, value):
-        # We begin with creating a ListNode object with our value
+        # We begin with creating a ListNode object with our value bound to the variable item
         item = ListNode(value)
         # We check to see if our head is None, in which case we know the list is empty
         # So we set head and tail to the same value
