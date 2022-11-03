@@ -133,8 +133,7 @@ class LinkedList:
             print('None')
 
     # This function is a more detailed view that prints all the pointer values
-    # of every single node which can be useful to make sure that our inserts and deletions
-    # have worked correctly
+    # of every single node which can be useful to make sure that our pointers are set correctly
     def print_detail(self):
         if self.head is None:
             return 'This is an empty list'
