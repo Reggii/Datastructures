@@ -75,7 +75,7 @@ class LinkedList:
             self._prepend(item)
 
     def _prepend(self, value):
-        # We will position our value in a position previous to the head node
+        # We will position ourselves at the head node
         current = self.head
         # We know that our head nodes prev pointer will always point to none
         # So we set the prev pointer to value and we set our values next pointer to current
