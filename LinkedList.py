@@ -127,9 +127,9 @@ class LinkedList:
             current = self.head
             print('None <->', end=' ')
             while current.next is not None:
-                print(f'{current.value}', end=' -> ')
+                print(f'{current.value}', end=' <-> ')
                 current = current.next
-            print(f'{current.value} ->', end=' ')
+            print(f'{current.value} <->', end=' ')
             print('None')
 
     # This function is a more detailed view that prints all the pointer values
