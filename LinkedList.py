@@ -125,7 +125,7 @@ class LinkedList:
             return 'This is an empty list'
         else:
             current = self.head
-            print('None ->', end=' ')
+            print('None <->', end=' ')
             while current.next is not None:
                 print(f'{current.value}', end=' -> ')
                 current = current.next
