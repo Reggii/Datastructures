@@ -7,6 +7,7 @@
 # - Find
 # - Delete
 # - Traverse (In/Pre/Postorder)
+# Note: Tree does not handle duplicate values
 # ------------------------------- Binary search tree implementation ------------------------------------ #
 
 class BinaryNode:
