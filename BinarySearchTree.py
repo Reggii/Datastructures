@@ -108,7 +108,7 @@ class BinarySearchTree:
         if not root:
             return None
         # First we compare if our value is smaller or bigger than the root
-        # and recursively traverse the tree accordingly until we get a match or return a value not found as above
+        # and recursively traverse the tree accordingly until we get a match or our root returns None
         if value < root.value:
             root.left = self._delete(root.left, value)
         elif value > root.value:
