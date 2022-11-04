@@ -1,13 +1,13 @@
 
 # !Python 3.10
 #  Rihhard Elm
-# -------------
+# ------------- 
 # This is an implementation of a binary search tree in Python with the following functionality:
 # - Insert
 # - Find
 # - Delete
 # - Traverse (In/Pre/Postorder)
-#------------------------------- Binary search tree implementation ------------------------------------
+# ------------------------------- Binary search tree implementation ------------------------------------ #
 
 class BinaryNode:
     # The node class is initiated with a value and two pointers, left and right
