@@ -131,6 +131,7 @@ class BinarySearchTree:
                 # Once we have our successor node, we set it as our root
                 root.value = get_successor.value
                 # Then we make sure to traverse both subtrees and remove our successor's duplicate
+                # We traverse both since our successor might have been from either of the subtrees
                 root.left = self._delete(root.left, get_successor.value)
                 root.right = self._delete(root.right, get_successor.value)
         return root
