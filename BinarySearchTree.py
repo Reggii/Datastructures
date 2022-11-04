@@ -30,6 +30,7 @@ class BinarySearchTree:
         # we traverse the left subtrees full height
         else:
             pointer = root.right
+        # The while loop is where we do the traversal
         while pointer.left is not None:
             pointer = root.left
         return pointer
