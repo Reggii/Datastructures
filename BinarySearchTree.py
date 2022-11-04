@@ -86,7 +86,7 @@ class BinarySearchTree:
         # If value is smaller than root, we recursively call upon the left pointer
         if value < root.value:
             self._find(root.left, value)
-        # If value is bigger than root, we recursively call upon the left pointer
+        # If value is bigger than root, we recursively call upon the right pointer
         elif value > root.value:
             self._find(root.right, value)
         # If value matches the root, we return a confirmation
