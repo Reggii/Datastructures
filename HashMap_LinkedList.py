@@ -20,7 +20,7 @@ class Node:
     def __repr__(self):
         return str((self.key, self.value))
 
-class HashTable:
+class HashMap:
     """
     We construct our HashTable class with a predefined size and a list of buckets.
     The list of buckets is multiplied by the size which we will then use to store our values.
@@ -154,7 +154,7 @@ class HashTable:
 
 if __name__ == '__main__':
     # Instantiate the class    
-    h = HashTable()
+    h = HashMap()
     # Test the insert, find and print functionality
     h.insert('Bob', '550-889')
     h.insert('John', '510-819')
