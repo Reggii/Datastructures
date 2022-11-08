@@ -1,12 +1,12 @@
 # !Python 3.10
 # Rihhard Elm
 # -------------
-# This is an implementation of a hash map linked list in Python with the following functionality:
+# This is an implementation of a hash map - linked list in Python with the following functionality:
 # - Insert
 # - Find
 # - Delete
 # - Print
-# ------------------------------- Hash map linked list implementation ------------------------------------ #
+# ------------------------------- Hash map - linked list implementation ------------------------------------ #
 class Node:
     """
     We construct the Node class with a key-value pair as well as a next parameter.
